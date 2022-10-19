@@ -1,0 +1,28 @@
+.grid {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+}
+
+.player {
+    position: absolute;
+    width: 20px;
+    height: 180px;
+    background-color: bisque;
+    left: 50px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+
+}
+
+.wall {
+    position: absolute;
+    background-color: white;
+}
