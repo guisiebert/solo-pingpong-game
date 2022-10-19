@@ -5,6 +5,16 @@
     background-color: blue;
 }
 
+button {
+    width: 200px;
+    margin-left: 600px;
+    height: 300px;
+    opacity: 100%;
+    color: aqua;
+    font-size: x-large;
+    background-color: blue;
+}
+
 .player {
     position: absolute;
     width: 20px;

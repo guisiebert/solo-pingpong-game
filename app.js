@@ -48,16 +48,30 @@ drawPlayer()
 function moveUser(e) {
     switch(e.key) {
         case 'ArrowUp': 
-        playerY -= 20
-        drawPlayer()
-        break
+            playerY -= 20
+            drawPlayer()
+            break
+
         case 'ArrowDown': 
-        playerY += 20
-        drawPlayer()
+            playerY += 20
+            drawPlayer()
     }
 }
-
 document.addEventListener('keydown', moveUser)
+
+// Move Player on Phone
+function moveUp() {
+    console.log("UP!")
+    playerY -= 20
+    drawPlayer()
+}
+
+function moveDown() {
+    console.log("DOWN!")
+    playerY += 20
+    drawPlayer()
+}
+
 
 // Create Ball
 const ball = document.createElement('div')
